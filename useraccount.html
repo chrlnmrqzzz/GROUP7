@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Account</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f4e0; /* Light olive background */
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #3b4d33; /* Dark muted green */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ccc;
+        }
+
+        th {
+            background-color: #708238; /* Olive green */
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: 677D6A; 
+        }
+
+        tr:hover {
+            background-color: #D6BD98; 
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .button {
+            padding: 10px 15px;
+            background-color: #40534C; 
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #D6BD98; 
+        }
+    </style>
+</head>
+<body>
+    <h2>User Account Information</h2>
+
+    <!-- Single Table -->
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Username</th>
+                <th>Position</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Charlene Marquez</td>
+                <td>chrlnmrqz</td>
+                <td>Admin</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Lemuel Ignacio</td>
+                <td>lmlgnc</td>
+                <td>Editor</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Angelo Quiroz</td>
+                <td>angelquiroz</td>
+                <td>Viewer</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Jerome Reyes</td>
+                <td>reyesjer</td>
+                <td>Admin</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Franz Daniell</td>
+                <td>deej</td>
+                <td>Editor</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Button Container -->
+    <div class="button-container">
+        <button class="button">Add</button>
+        <button class="button">Edit</button>
+        <button class="button">View</button>
+        <button class="button">Delete</button>
+    </div>
+</body>
+</html>
